@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:id="@+id/search_layout"
+    android:background="@color/grey"
+    android:padding="6dp"
+    >
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/search_icon">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/search_desc" android:layout_width="match_parent"
+        android:layout_height="match_parent"  android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/mapFragmentMessage"
+        android:textAlignment="center"/>
+</LinearLayout>
+
